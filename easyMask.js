@@ -4,6 +4,31 @@
 //                                              //
 //----------------------------------------------//
 
+
+// how to use
+// <input type="text"            easymask="onlyNumbers"             name="" id="">
+// <script src="https://andremalveira.github.io/cdnjs/easyMask.js"></script>
+//  <script>easyMask()</script>
+// Options
+    //easymask="cpf"
+    //easymask="cnpj"
+    //easymask="tel"
+    //easymask="ddd+tel"
+    //easymask="cel"
+    //easymask="ddd+cel"
+    //easymask="cep"
+    //easymask="date"
+    //easymask="time"
+    //easymask="dateTime"
+    //easymask="currency"
+    //easymask="millimeter"
+    //easymask="centimeter"
+    //easymask="meter"
+    //easymask="ip"
+    //easymask="onlyLetters"          -> Apenas Letras
+    //easymask="onlyNumbers"           -> Apenas Números
+
+
 const easyMask = (clientFormatMask) => {
   var allInputs = document.querySelectorAll('input[easymask]');
   var codOk = null;
