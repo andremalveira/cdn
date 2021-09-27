@@ -4,7 +4,7 @@
 //                                              //
 //----------------------------------------------//
 
-const easymask = (clientFormatMask) => {
+const easyMask = (clientFormatMask) => {
   var allInputs = document.querySelectorAll('input[easymask]');
   var codOk = null;
 
